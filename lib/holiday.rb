@@ -74,6 +74,9 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.map |holiday, items|
       if items == "BBQ"
         return holiday_hash.keys
+      end
+    end
+  end
     
 
 end
